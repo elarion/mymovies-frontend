@@ -30,7 +30,7 @@ function Home() {
 				const data = await fetchMovies();
 
 				if (data.success) {
-					setMoviesData((prevMoviesData) => data.movies.results);
+					setMoviesData((prevMoviesData) => data.movies);
 				}
 			}
 
