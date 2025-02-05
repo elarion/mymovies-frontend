@@ -6,7 +6,7 @@ import Movie from './Movie';
 import 'antd/dist/antd.css';
 import styles from '../styles/Home.module.css';
 
-const MOVIE_ENDPOINT = 'https://mymoviz-backend-nine-tau.vercel.app';
+const MOVIE_ENDPOINT = 'https://mymoviz-backend-nine-tau.vercel.app/movies';
 const TMDB_IMAGE_URL = 'https://image.tmdb.org/t/p/w200';
 const fetchMovies = async () => {
 	try {
